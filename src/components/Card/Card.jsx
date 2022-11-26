@@ -25,6 +25,3 @@ export default function Card(params) {
 
 }
 
-git config --global user.email "pawelduplagait@gmail.com"
-git config --global user.name "PawelDuplaga"
-
