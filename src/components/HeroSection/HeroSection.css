@@ -1,0 +1,27 @@
+.hero--collage {
+    text-align: center;
+    padding: 60px 0px;
+}
+
+.hero--collage-img {
+    height: 500px;
+}
+
+
+.hero--whole {
+    margin: 4px 30px;
+}
+
+.hero--titletext > * {
+    margin: 4px 4px;
+}
+
+.hero--titletext > p {
+    max-width: 500px;
+}
+
+.hero--titletext {
+    font-size: 24px;
+    padding: 4px 20px;
+}
+

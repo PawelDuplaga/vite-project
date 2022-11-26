@@ -1,0 +1,11 @@
+.logo {
+    content: url("../../public/assets/Vector.svg");
+    height: 60px;
+}
+
+.navbar-flexbox { 
+    display: flex;
+    background-color: white;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+    padding: 22px 30px;
+} 

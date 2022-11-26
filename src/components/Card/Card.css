@@ -1,0 +1,52 @@
+.card--container {
+    width: 300px;
+}
+
+.card--info {
+}
+
+.card--info > * {
+    margin: 0px;
+    padding: 0px;
+}
+
+.card--image {
+    align-self: center;
+    width: 100%;
+}
+
+.card--reviews-score-country {
+    display: flex;
+    height: 100%;
+
+}
+
+.card--reviews-score-country > * {
+    margin: 0px;
+}
+
+.card--description  {
+
+}
+
+.card--description > * {
+    margin: 0;
+}
+
+.card--star-icon {
+    content: url('../../../public/assets/Star.svg');
+}
+
+.card--price-per-person {
+
+}
+
+.card--price-per-person > * {
+    margin: 0;
+}
+
+.grey {
+    color: grey;
+}
+
+
