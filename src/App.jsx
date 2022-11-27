@@ -12,13 +12,7 @@ const cards = data.map(item => {
   return (
     <Card
     key = {item.id}
-    img = {item.coverImg}
-    rating = {item.stats.rating}
-    reviews_count = {item.stats.reviewCount}
-    country = {item.location}
-    description = {item.title}
-    card_price = {item.price}
-    openSpots ={item.openSpots}    
+    item = {item}    
     />
   )
 })
