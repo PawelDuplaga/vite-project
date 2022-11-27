@@ -1,9 +1,9 @@
 .card--container {
     width: 300px;
+    position: relative;
 }
 
-.card--info {
-}
+
 
 .card--info > * {
     margin: 0px;
@@ -13,6 +13,9 @@
 .card--image {
     align-self: center;
     width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 16px;
 }
 
 .card--reviews-score-country {
@@ -25,21 +28,17 @@
     margin: 0px;
 }
 
-.card--description  {
 
-}
 
 .card--description > * {
     margin: 0;
 }
 
 .card--star-icon {
-    content: url('../../../public/assets/Star.svg');
+    content: url('../../../assets/Star.svg');
 }
 
-.card--price-per-person {
 
-}
 
 .card--price-per-person > * {
     margin: 0;
@@ -47,6 +46,16 @@
 
 .grey {
     color: grey;
+}
+
+.card--badge {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
 }
 
 
